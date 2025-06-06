@@ -41,53 +41,38 @@ Password Manager is a simple, efficient, and open-source application designed to
 
 ### Prerequisites
 
-- Python 3.8 or higher installed on your system  
-- Git (optional, but recommended for cloning the repo)
+- Python 3.8 or higher installed on your system (if using source)  
+- Git (optional, for cloning the repo)
 
 ### Steps
 
-1. **Clone the repo**  
+The easiest way:  
+**Just download the `.exe` file from the [Releases](https://github.com/Ocean-Jester/Password-Manager/releases) section and launch it!** 🚀🔥
+
+For source use:  
 ```bash
-git clone https://github.com/Ocean-Jester/Password-Manager.git
-Navigate to project folder
-
-bash
-Kopyala
-Düzenle
-cd Password-Manager
-Install dependencies
-(If you have a requirements.txt or similar)
-
-bash
-Kopyala
-Düzenle
-pip install -r requirements.txt
-Run the application
-
-bash
-Kopyala
-Düzenle
+git clone https://github.com/Ocean-Jester/Password-Manager.git  
+cd Password-Manager  
+pip install -r requirements.txt  
 python main.py
 Usage 🚀
-Launch the app using the command above
+Launch the app (exe or via Python)
 
-Follow on-screen prompts to generate passwords or manage stored credentials
+Follow the on-screen prompts to generate passwords or manage stored credentials
 
-Customize password options via configuration files or CLI parameters
-
-Check the documentation folder for advanced usage and examples (if available)
+Customize password options via config files or CLI parameters
 
 Configuration ⚙️
-You can adjust password length, character sets, and storage options in the config file (config.json or similar)
+Adjust password length, character sets, and storage options in the config file (config.json or similar)
 
-Feel free to fork and customize as per your needs!
+Fork and customize as you like!
 
 Contributing 🤝
-Contributions are what make the open-source community amazing! Whether it’s fixing bugs, improving documentation, or adding new features, your help is welcome!
+Contributions are what make the open-source community amazing! Whether it’s fixing bugs, improving docs, or adding features, your help is welcome!
 
 How to contribute:
 
-Fork the repository
+Fork the repo
 
 Create your feature branch (git checkout -b feature/AwesomeFeature)
 
@@ -97,7 +82,7 @@ Push to the branch (git push origin feature/AwesomeFeature)
 
 Open a Pull Request
 
-Please follow the code style and write meaningful commit messages.
+Please keep code style clean and write clear commit messages.
 
 License 📄
 This project is licensed under the MIT License — see the LICENSE file for details.
